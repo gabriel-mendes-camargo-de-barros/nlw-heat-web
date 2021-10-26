@@ -1,12 +1,13 @@
 .contentWrapper {
-  max-width: 1200px;
+  max-width: 100vw;
   height   : 100vh;
   margin   : 0 auto;
 
   display              : grid;
-  grid-template-columns: 1fr 453px;
-  column-gap           : 120px;
+  grid-template-columns: 4fr 2fr;
+  column-gap           : 6%;
   position             : relative;
+  padding: 0 2vw;
 }
 
 .contentSigned::before {
@@ -17,6 +18,6 @@
 
   background-size: cover;
   position       : absolute;
-  right          : -100px;
+  right          : 0;
   top            : 0;
 }
